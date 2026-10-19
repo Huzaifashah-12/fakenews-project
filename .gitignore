@@ -1,0 +1,21 @@
+# Dataset CSV files (large files)
+*.csv
+Fake.csv
+True.csv
+
+# Python cache & virtual environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Model binaries (often managed in S3/Lambda or Git LFS)
+*.pkl
+
+# IDE and OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
